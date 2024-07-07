@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "type": "Income",
+      "amount": 2000,
+      "category": "Salary",
+      "date": "2024-07-01",
+      "description": "Monthly salary"
+    },
+    {
+      "id": 2,
+      "type": "Expense",
+      "amount": 50,
+      "category": "Shopping",
+      "date": "2024-06-02",
+      "description": "Grocery shopping at supermarket"
+    },
+    {
+      "id": 3,
+      "type": "Expense",
+      "amount": 100,
+      "category": "Utilities",
+      "date": "2024-07-03",
+      "description": "Electricity bill payment"
+    },
+    {
+      "id": 4,
+      "type": "Expense",
+      "amount": 70,
+      "category": "Entertainment",
+      "date": "2024-06-05",
+      "description": "Movie night with friends"
+    },
+    {
+      "id": 5,
+      "type": "Income",
+      "amount": 500,
+      "category": "Bonus",
+      "date": "2024-04-06",
+      "description": "Quarterly bonus"
+    },
+    {
+      "id": 6,
+      "type": "Expense",
+      "amount": 30,
+      "category": "Transport",
+      "date": "2024-07-07",
+      "description": "Taxi fare"
+    }
+  ]
+}

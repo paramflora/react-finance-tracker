@@ -1,0 +1,9 @@
+.category_breakdown_wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.category_breakdown_wrapper h2 {
+    margin-bottom: 20px;
+}

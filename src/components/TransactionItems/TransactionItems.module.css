@@ -1,0 +1,39 @@
+.list_trans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_trans p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.list_trans_category {
+    font-size: 0.7rem;
+    color: #666;
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.list_trans_amt {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.list_trans_amt.credit{
+    color: #45a049;
+}
+
+.list_trans_amt.debit{
+    color: #ff4b2b;
+}
+
+.trans_date{
+    font-size: 12px;
+    margin-top: 12px;
+    color: #898383;
+}

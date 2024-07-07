@@ -1,0 +1,95 @@
+.filter_wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.filter_wrapper .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter_wrapper .col-md-6 {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.filter_wrapper .form_group {
+    margin-bottom: 15px;
+}
+
+.filter_wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 1rem;
+}
+
+.filter_wrapper input[type="date"]{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.text_center {
+    text-align: center;
+}
+
+.filter_wrapper input[type="date"]:focus,
+.filter_wrapper button.btn:hover {
+    outline: none;
+    border-color: #5a9ced;
+}
+
+button.btn {
+    padding: 10px 20px;
+    background-color: #1462ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 30px -10px #4a74c9
+}
+
+button.btn:hover {
+    background-color: #45a049;
+}
+
+.filter_btn{
+    margin-left: 10px;
+    background-color: #333 !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+.col_md_4, .col_md_6, .col_md_12 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col_md_4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  
+  .col_md_6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .col_md_12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
